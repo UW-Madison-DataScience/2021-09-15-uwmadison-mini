@@ -78,7 +78,7 @@ displayed if the 'eventbrite' field in the header is not set.
   src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
   frameborder="0"
   width="100%"
-  height="280px"
+  height="360px"
   scrolling="auto">
 </iframe>
 {% endif %}
@@ -94,8 +94,8 @@ the pitch.
 {% endcomment %}
 {% if site.carpentry == "swc" %}
 {% include swc/intro.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/intro.html %}
+{% elsif site.carpentry == "none" %}
+{% include none/intro.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/intro.html %}
 {% endif %}
@@ -108,8 +108,8 @@ workshop is only open to people from a particular institution.
 {% endcomment %}
 {% if site.carpentry == "swc" %}
 {% include swc/who.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/who.html %}
+{% elsif site.carpentry == "none" %}
+{% include none/who.html %}
 {% elsif site.carpentry == "lc" %}
 {% include lc/who.html %}
 {% endif %}
