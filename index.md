@@ -353,8 +353,6 @@ how one of these schedule tables is constructed.
 
 <hr>
 
-{% endcomment %}
-
 
 {% comment %}
 SETUP
