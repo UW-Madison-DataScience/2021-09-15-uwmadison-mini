@@ -385,7 +385,7 @@ These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
 
-{% if site.carpentry == "swc" %}
+{% if site.carpentry == "none" %}
 {% include none/setup.html %}
 {% elsif site.carpentry == "dc" %}
 {% include dc/setup.html %}
