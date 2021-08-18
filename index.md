@@ -315,13 +315,7 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 
 {% if site.carpentry == "none" %}
 {% include none/schedule.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/schedule.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/schedule.html %}
-{% elsif site.carpentry == "none" %}
-{% include none/schedule.html %}
-{% elsif site.carpentry == "pilot" %}
+
 The lesson taught in this workshop is being piloted and a precise schedule is yet to be established. The workshop will include regular breaks. If you would like to know the timing of these breaks in advance, please [contact the workshop organisers](#contact). For a list of lesson sections and estimated timings, [visit the lesson homepage]({{ site.lesson_site }}).
 {% comment %}
 Edit/replace the text above if you want to include a schedule table.
