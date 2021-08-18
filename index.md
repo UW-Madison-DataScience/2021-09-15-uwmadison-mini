@@ -334,7 +334,13 @@ change the value of `carpentry` to `pilot`.
 
 
 {% comment %}
+
 SCHEDULE
+
+Show the workshop's schedule.  Edit the items and times in the table
+to match your plans.  You may also want to change 'Day 1' and 'Day
+2' to be actual dates or days of the week.
+{% endcomment %}
 <h2 id="_includes/none/schedule.html">Schedule</h2>
 
 {% if site.carpentry == "swc" %}
@@ -357,17 +363,6 @@ how one of these schedule tables is constructed.
 <hr/>
 
 {% endcomment %}
-
-SCHEDULE
-
-Show the workshop's schedule.  Edit the items and times in the table
-to match your plans.  You may also want to change 'Day 1' and 'Day
-2' to be actual dates or days of the week.
-{% endcomment %}
-<h2 id="schedule">Schedule</h2>
-All times are Central Standard Time (CST). Add one hour for Eastern Standard Time (EST).
-{% include swc/schedule.html %}
-
 
 
 {% comment %}
