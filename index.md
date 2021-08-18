@@ -330,7 +330,7 @@ change the value of `carpentry` to `pilot`.
 <p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 {% endif %}
 
-<hr/>
+<hr>
 
 
 {% comment %}
@@ -362,7 +362,7 @@ how one of these schedule tables is constructed.
 {% endcomment %}
 {% endif %}
 
-<hr/>
+<hr>
 
 {% endcomment %}
 
