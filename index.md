@@ -313,8 +313,8 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 
 <h2 id="schedule">Schedule</h2>
 
-{% if site.carpentry == "swc" %}
-{% include swc/schedule.html %}
+{% if site.carpentry == "none" %}
+{% include none/schedule.html %}
 {% elsif site.carpentry == "dc" %}
 {% include dc/schedule.html %}
 {% elsif site.carpentry == "lc" %}
