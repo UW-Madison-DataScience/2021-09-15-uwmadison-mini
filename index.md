@@ -355,26 +355,16 @@ of code below the Schedule `<h2>` header below with
 `{% include custom-schedule.html %}`.
 {% endcomment %}
 
-<h2 id="_includes/none/schedule.html">Schedule</h2>
+SCHEDULE
 
-{% if site.carpentry == "swc" %}
-{% include swc/schedule.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/schedule.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/schedule.html %}
-{% elsif site.carpentry == "none" %}
-{% include none/schedule.html %}
-{% elsif site.carpentry == "pilot" %}
-The lesson taught in this workshop is being piloted and a precise schedule is yet to be established. The workshop will include regular breaks. If you would like to know the timing of these breaks in advance, please [contact the workshop organisers](#contact). For a list of lesson sections and estimated timings, [visit the lesson homepage]({{ site.lesson_site }}).
-{% comment %}
-Edit/replace the text above if you want to include a schedule table.
-See the contents of the _includes/custom-schedule.html file for an example of
-how one of these schedule tables is constructed.
+Show the workshop's schedule.  Edit the items and times in the table
+to match your plans.  You may also want to change 'Day 1' and 'Day
+2' to be actual dates or days of the week.
 {% endcomment %}
-{% endif %}
+<h2 id="schedule">Schedule</h2>
+All times are Central Standard Time (CST). Add one hour for Eastern Standard Time (EST).
+{% include swc/schedule.html %}
 
-<hr/>
 
 
 {% comment %}
